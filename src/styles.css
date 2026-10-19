@@ -497,3 +497,15 @@ button:focus-visible, input:focus-visible, select:focus-visible { outline-color:
   .live-dot { animation: none; }
   .stat-card:hover { transform: none; }
 }
+
+html,
+body {
+  cursor: url("/image.png") 24 24, auto;
+}
+
+button,
+a,
+select,
+[role="button"] {
+  cursor: url("/image.png") 24 24, pointer !important;
+}
